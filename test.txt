@@ -73,6 +73,7 @@ Switched to branch 'newbranch'
 
 Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (newbranch)
 $
+<<<<<<< HEAD
 
 SWITCH BACK TO MASTER:
 Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (newbranch)
@@ -84,3 +85,5 @@ $
 
 INT HTIS CASE OUT SECONDARY OR NEW BRANCH HTML WILL DISSAPEAR FORM THE  FOLDER, REASON IS THAT THIS IN THE NEWBRANCH IF WE WANT TO MERGE THAT IF WE FINISHED THE WORK:
 
+=======
+>>>>>>> newbranch
