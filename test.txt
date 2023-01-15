@@ -1,0 +1,56 @@
+CREATE A FILE IN GIT USING BELOW COMANDS:
+
+ Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git
+$ touch index.html
+
+Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git
+$ touch style.css
+
+Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git
+$ touch script.js
+
+ CREATE A .GIT FOLDER INITILAIZE    REPOZITORY:
+Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git
+$ git init
+Initialized empty Git repository in C:/Users/Victor.Ciobanu/Desktop/git/.git/
+
+ADD YOU NAME AND YOU EMAIL ADDRESS
+
+Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (master)
+$ git config --global user.name "victor ciobanu"
+
+Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (master)
+$ git config --global user.email"victor.ciobanu@keyivr.co.uk"
+
+ADD THE INDEX HTML FILE TO OUR GIT REPOSITORY:
+Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (master)
+$ git add index.html
+CHECK WHAT IS IN THE STAGING AREA:
+Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (master)
+$ git status
+result
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        script.js
+        style.css
+        test.txt
+
+IF WE WANT TO FREMOVE THE FILE FROM STAGING WE NEED TO USE BELOW COMAND :
+Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (master)
+$ git rm --cached index.html
+ AS A RESULT WE WILL DO ANOTHER GIT STATUS THE INDEX.HTML WILL BE BACK WITH OTHER PROJECTS
+
+
+ IN ORDER TO ADD EVERYTHING TO STAGING BUT OF A SPECIFIC  EXTENSION USE:
+ Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (master)
+$ git add *html
+IF WE WANT TO ADD ALL FILES TO STAGING USE:
+$ git add .
