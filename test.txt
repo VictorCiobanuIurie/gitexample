@@ -63,4 +63,24 @@ $ git commit -m 'changed txt file'
  Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (master)
 $ touch .gitignore
 BRANCHES:
-CREATE A BRANCH
+CREATE A BRANCH:
+Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (master)
+$ git branch newbranch
+CHECK OUT OF THE MASTER BRANCH AND GO TO THE BRANCH WE JUST CREATED:
+Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (master)
+$ git checkout newbranch
+Switched to branch 'newbranch'
+
+Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (newbranch)
+$
+
+SWITCH BACK TO MASTER:
+Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (newbranch)
+$ git checkout master
+Switched to branch 'master'
+
+Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (master)
+$
+
+INT HTIS CASE OUT SECONDARY OR NEW BRANCH HTML WILL DISSAPEAR FORM THE  FOLDER, REASON IS THAT THIS IN THE NEWBRANCH IF WE WANT TO MERGE THAT IF WE FINISHED THE WORK:
+
