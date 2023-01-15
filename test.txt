@@ -54,3 +54,13 @@ $ git rm --cached index.html
 $ git add *html
 IF WE WANT TO ADD ALL FILES TO STAGING USE:
 $ git add .
+COOMIT WITHOUT ENTERING COMMENT MODE:
+Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (master)
+$ git commit -m 'changed txt file'
+
+ too add a file you want to ignore:
+ create:
+ Victor.Ciobanu@ASPIRA-MDDESK19 MINGW64 ~/Desktop/git (master)
+$ touch .gitignore
+BRANCHES:
+CREATE A BRANCH
